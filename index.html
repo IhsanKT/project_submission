@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Submission Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="header">
+            
+            <img src="ivil_logo.png" alt="IViL Logo" class="logo">
+            <h1>Submit Your Project idea</h1>
+        </div>
+        <form action="#" method="POST">
+            <label for="title">Project Title:<span class="required">*</span></label>
+            <input type="text" id="title" name="title" placeholder="Enter project title" required>
+
+            <label for="description">Project Description:<span class="required">*</span></label>
+            <textarea id="description" name="description" placeholder="Describe your project" required></textarea>
+
+            <label for="team">Team Members:<span class="required">*</span></label>
+            <input type="text" id="team" name="team" placeholder="Enter team members" required>
+
+            <label for="contact">Primary Contact:<span class="required">*</span></label>
+            <input type="text" id="contact" name="contact" placeholder="Name of primary contact" required>
+            <input type="email" id="contact-email" name="contact-email" placeholder="Email of primary contact" required>
+            <input type="tel" id="contact-phone" name="contact-phone" placeholder="Phone number of primary contact" required>
+
+            <label for="objective">Objective:<span class="required">*</span></label>
+            <input type="text" id="objective" name="objective" placeholder="What does the project aim to achieve?" required>
+
+            <label for="outcomes">Expected Outcomes:</label>
+            <textarea id="outcomes" name="outcomes" placeholder="Anticipated results"></textarea>
+
+            <label for="technologies">Technologies Used:</label>
+            <input type="text" id="technologies" name="technologies" placeholder="Mention technologies or tools used">
+
+            <label for="timeline">Timeline:</label>
+            <input type="text" id="timeline" name="timeline" placeholder="Proposed timeline (start and end dates)">
+
+            <label for="resources">Resources Required:</label>
+            <textarea id="resources" name="resources" placeholder="Specify resources or support needed"></textarea>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" placeholder="Any other relevant information"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
